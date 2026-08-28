@@ -1,0 +1,17 @@
+slam_toolbox:
+  ros__parameters:
+    # ... other parameters ...
+    resolution: 0.03  # Change this value (e.g., 0.05 for 5cm, 0.1 for 10cm)
+    min_laser_range: 0.12
+    max_laser_range: 3.5
+    # minimum_time_interval: 0.2
+    map_update_interval: 0.2
+    restamp_tf: True
+    
+    # REQUIRED FOR TURTLEBOT3
+    base_frame: base_footprint 
+    odom_frame: odom
+    scan_topic: /scan
+    
+    minimum_travel_distance: 0.05
+    minimum_travel_heading: 0.05

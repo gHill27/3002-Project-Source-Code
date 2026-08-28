@@ -1,0 +1,13 @@
+slam_toolbox:
+  ros__parameters:
+    resolution: 0.03
+    min_laser_range: 0.12
+    max_laser_range: 3.5
+    map_update_interval: 0.2
+    min_pass_through: 1
+    restamp_tf: true
+    base_frame: base_footprint
+    odom_frame: odom
+    scan_topic: /scan_filtered
+    minimum_travel_distance: 0.05
+    minimum_travel_heading: 0.05
